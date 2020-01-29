@@ -1,3 +1,13 @@
+<?php
+    session_start();
+
+    if (!isset($_SESSION['movieList'])) {
+        $_SESSION['movieList'] = array();
+    }
+
+    print_r($_SESSION);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

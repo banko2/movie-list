@@ -12,7 +12,7 @@
         <h1>Favorite Movies</h1>
 
         <h3>Add your favorite movie</h3>
-        <form>
+        <form action="postMovie.php" method="post"> 
             <label for="new-movie-title">Movie Title</label>
             <input type="text" name="newMovie" id="new-movie-title" placeholder="The Godfather">
             <input type="submit" value="Add">
