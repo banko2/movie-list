@@ -1,6 +1,7 @@
 body {
     background-color: darkolivegreen;
     color: white;
+    font-family: sans-serif;
 }
 
 .content {
@@ -11,4 +12,14 @@ body {
 
 .movie-list {
     list-style: none;
+}
+
+.button {
+    color: skyblue;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.button:hover {
+    text-decoration: underline;
 }

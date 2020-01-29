@@ -11,11 +11,14 @@
     <div class="content">
         <h1>Favorite Movies</h1>
 
+        <a class="button" href="addMovie.php">Add movie</a>
+
         <ul class="movie-list">
             <li>The Matrix</li>
             <li>The Case for Christ</li>
             <li>Man of Steel</li>
         </ul>
+
     </div>
 </body>
 </html>
