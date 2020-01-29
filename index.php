@@ -4,8 +4,6 @@
     if (!isset($_SESSION['movieList'])) {
         $_SESSION['movieList'] = array();
     }
-
-    print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -24,9 +22,11 @@
         <a class="button" href="addMovie.php">Add movie</a>
 
         <ul class="movie-list">
-            <li>The Matrix</li>
-            <li>The Case for Christ</li>
-            <li>Man of Steel</li>
+            <?php
+                foreach ($_SESSION['movieList'] as $movieName) {
+                    echo "<li>$movieName</li>";
+                }
+            ?>
         </ul>
 
     </div>
